@@ -12,7 +12,7 @@ export type ViewerCreateOptions = {
   lights?: LightsConfig;
 };
 
-const TAG_NAME = "humans-viewer"; // test change
+const TAG_NAME = "humans-viewer";
 
 export function register(): void {
   if (!customElements.get(TAG_NAME)) {
